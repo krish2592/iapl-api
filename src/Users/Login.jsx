@@ -1,12 +1,13 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-import {validatePassword} from './validator';
+import {validatePassword} from '../validator';
 
 export const Login = (props) => {
-    const [email, setEmail] = useState('');
+    const [userId, setUserId] = useState('');
     const [password, setPassword] = useState('');
     const [errorMessage, setErrorMessage] = useState('');
     const [loginError, loginErrorMessage] = useState('');
+    const [successMessage, setSuccessMessage] = useState("");
     const userLogin = async (e) => {
         e.preventDefault();
         try {
@@ -17,10 +18,14 @@ export const Login = (props) => {
                 return;
             }
             const data = {
-            email:email, 
+            userId: userId,
             password: password
             };
-            await axios.post("http://localhost:4000/loginUser", data);
+            const response = await axios.post("http://localhost:4000/loginUser", data);
+            if (response.status === 200 && response.data.isUserExist) {
+                setSuccessMessage("success");
+                window.open("http://localhost:3000/user") 
+            }
         } catch (err) {
             loginErrorMessage(
                 'wrong credentials'
@@ -34,14 +39,17 @@ export const Login = (props) => {
         <h2>Login</h2>
         {loginError && <p style={{ color: 'white' }}>{loginError}</p>}
         <form className='login-form' onSubmit={userLogin} action='POST'>
-            <label htmlFor="email">Email</label>
-            <input value={email} onChange={(e) => setEmail(e.target.value)} type="email" placeholder="Email" id="email" name="email" required/>
+            <label htmlFor="userId">UserId</label>
+            <input value={userId} onChange={(e) => setUserId(e.target.value)} type="userId" placeholder="Email/Phone" id="userId" name="userId" required/>
             <label htmlFor="password">Password</label>
             <input value={password} onChange={(e) => setPassword(e.target.value)} type="password" placeholder="********" id="password" name="password" required/>
             {errorMessage && <p style={{ color: 'white' }}>{errorMessage}</p>}
             <button type="submit">Log In</button>
+            {successMessage && <h3>{successMessage}</h3>}
         </form>
         <button className='link-btn' onClick={() => props.onFormSwitch('register')}>Don't have an account? Register here</button>
         </div>
     );
 }
+
+export default Login;
