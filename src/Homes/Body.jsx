@@ -1,12 +1,13 @@
 import React from "react";
+import '../Body.css';
 
 const Body = () => {
 
     return (
     <body>
         <section>
-            <h2>About Us</h2>
-            <p>This is the about section of the home page.</p>
+            <div className="maahaul-welcome-page">Box1</div>
+            <div className="mep-design-welcome-page">Box2</div>
         </section>
         <section>
             <h2>Features</h2>

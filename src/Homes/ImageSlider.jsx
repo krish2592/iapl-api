@@ -5,10 +5,15 @@ import { faChevronLeft, faChevronRight, faCircle } from '@fortawesome/free-solid
 const ImageSlider = ({ slides }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
+const containerStyle = {
+    width: "100%",
+    height: "300px",
+    margin: "0 auto",
+}
+
 const sliderStyle = {
     height:'100%',
     position: 'relative',
-    margin:'5px'
 }
 
 const slideStyles = {
@@ -57,6 +62,7 @@ const rightArrowStyles = {
   const dotStyleContainer = {
     display:'flex',
     justifyContent: "center",
+    color:"black"
   }
 
   const dotStyle = {
@@ -70,6 +76,7 @@ const rightArrowStyles = {
   }
 
   return (
+    <div style={containerStyle}>
     <div className="image-slider" style={sliderStyle}>
             <div style={leftArrowStyles} onClick={goToPreviousSlide}>
                 <FontAwesomeIcon icon={faChevronLeft} />
@@ -83,6 +90,7 @@ const rightArrowStyles = {
           <div key={index} style={dotStyle} onClick={() => goToSlide(index)}><FontAwesomeIcon icon={faCircle} /></div>
         ))}
       </div>
+    </div>
     </div>
   );
 };

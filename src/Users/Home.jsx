@@ -3,6 +3,7 @@ import Header from '../Homes/Header';
 import Body from '../Homes/Body';
 import Footer from '../Homes/Footer';
 import ImageSlider from '../Homes/ImageSlider';
+import '../App.css'
 
 const Home = () => {
   
@@ -14,18 +15,12 @@ const Home = () => {
     {url:'http://localhost:3000/image-5.jpg', title:""}
   ];
 
-  const containerStyle = {
-    width: "98%",
-    height: "280px",
-    margin: "0 auto",
-  }
+  
 
   return (
-    <div>
+    <div className='main-display-container'>
         <Header/>
-        <div style={containerStyle}>
-          <ImageSlider slides={images}/>
-        </div>
+        <ImageSlider slides={images}/>
         <Body/>
         <Footer/>
     </div>
