@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronLeft, faChevronRight, faCircle } from '@fortawesome/free-solid-svg-icons';
 
@@ -19,7 +19,6 @@ const sliderStyle = {
 const slideStyles = {
     width: '100%',
     height: '100%',
-    borderRadius: '10px',
     backgroundPosition: 'center',
     backgroundSize: 'cover',
     backgroundImage:`url(${slides[currentIndex].url})`
@@ -60,9 +59,11 @@ const rightArrowStyles = {
   };
 
   const dotStyleContainer = {
+    position: "absolute",
+    top: "93%",
+    left: "20px",
     display:'flex',
-    justifyContent: "center",
-    color:"black"
+    color:"darkblue"
   }
 
   const dotStyle = {
@@ -74,6 +75,14 @@ const rightArrowStyles = {
   const goToSlide = (index) => {
     setCurrentIndex(index)
   }
+
+  useEffect(() => {
+    const timer = setInterval(goToNextSlide, 3000);
+
+    return () => {
+      clearInterval(timer);
+    };
+  }, []);
 
   return (
     <div style={containerStyle}>
