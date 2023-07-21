@@ -132,8 +132,8 @@ button {
 }
 
 .company-logo {
-  width: 80px;
-  height: 40px;
+  width: 75px;
+  height: 75px;
 }
 
 /***********************************************************************/
@@ -162,12 +162,12 @@ button {
   display: none;
 }
 
-.nav-menu-col2, .nav-menu-col3 {
+.nav-menu-col2, .nav-menu-col3, .nav-menu-col4, .nav-menu-col5, .nav-menu-col6, .nav-menu-col7, .nav-menu-col8, .nav-menu-col9, .nav-menu-col10, .nav-menu-col11 {
   float: left;
   overflow: hidden;
 }
 
-.nav-menu-col2 .dropbtn, .nav-menu-col3 .dropbtn {
+.nav-menu-col2 .dropbtn, .nav-menu-col3 .dropbtn, .nav-menu-col4 .dropbtn, .nav-menu-col5 .dropbtn, .nav-menu-col6 .dropbtn, .nav-menu-col7 .dropbtn, .nav-menu-col8 .dropbtn, .nav-menu-col9 .dropbtn, .nav-menu-col10 .dropbtn, .nav-menu-col11 .dropbtn {
   font-size: 17px;    
   border: none;
   outline: none;
@@ -196,7 +196,7 @@ button {
   text-align: left;
 }
 
-.navbar-menu-list a:hover, .nav-menu-col2:hover .dropbtn, .nav-menu-col3:hover .dropbtn {
+.navbar-menu-list a:hover, .nav-menu-col2:hover .dropbtn, .nav-menu-col3:hover .dropbtn, .nav-menu-col4:hover .dropbtn, .nav-menu-col5:hover .dropbtn, .nav-menu-col6:hover .dropbtn, .nav-menu-col7:hover .dropbtn, .nav-menu-col8:hover .dropbtn, .nav-menu-col9:hover .dropbtn, .nav-menu-col10:hover .dropbtn, .nav-menu-col11:hover .dropbtn {
   background-color: #555;
   color: white;
 }
@@ -206,13 +206,12 @@ button {
   color: black;
 }
 
-.nav-menu-col2:hover .dropdown-content, .nav-menu-col3:hover .dropdown-content {
+.nav-menu-col2:hover .dropdown-content, .nav-menu-col3:hover .dropdown-content, .nav-menu-col4:hover .dropdown-content, .nav-menu-col5:hover .dropdown-content, .nav-menu-col6:hover .dropdown-content, .nav-menu-col7:hover .dropdown-content, .nav-menu-col8:hover .dropdown-content, .nav-menu-col9:hover .dropdown-content, .nav-menu-col10:hover .dropdown-content, .nav-menu-col11:hover .dropdown-content {
   display: block;
 }
 
-
 @media screen and (max-width: 600px) {
-  .navbar-menu-list > div:not(:last-child) > a, .nav-menu-col2 .dropbtn, .nav-menu-col3 .dropbtn{
+  .navbar-menu-list > div:not(:last-child) > a, .nav-menu-col2 .dropbtn, .nav-menu-col3 .dropbtn, .nav-menu-col4 .dropbtn, .nav-menu-col5 .dropbtn, .nav-menu-col6 .dropbtn, .nav-menu-col7 .dropbtn, .nav-menu-col8 .dropbtn, .nav-menu-col9 .dropbtn, .nav-menu-col10 .dropbtn, .nav-menu-col11 .dropbtn {
     display: none;
   }
   .navbar-menu-list a.icon {
@@ -233,9 +232,9 @@ button {
     display: block;
     text-align: left;
   }
-  .navbar-menu-list.responsive .nav-menu-col2, .navbar-menu-list.responsive .nav-menu-col3 {float: none;}
+  .navbar-menu-list.responsive .nav-menu-col2, .navbar-menu-list.responsive .nav-menu-col3, .navbar-menu-list.responsive .nav-menu-col4, .navbar-menu-list.responsive .nav-menu-col5, .navbar-menu-list.responsive .nav-menu-col6, .navbar-menu-list.responsive .nav-menu-col7, .navbar-menu-list.responsive .nav-menu-col8, .navbar-menu-list.responsive .nav-menu-col9, .navbar-menu-list.responsive .nav-menu-col10, .navbar-menu-list.responsive .nav-menu-col11 {float: none;}
   .navbar-menu-list.responsive .dropdown-content {position: relative;}
-  .navbar-menu-list.responsive .nav-menu-col2 .dropbtn, .navbar-menu-list.responsive .nav-menu-col3 .dropbtn {
+  .navbar-menu-list.responsive .nav-menu-col2 .dropbtn, .navbar-menu-list.responsive .nav-menu-col3 .dropbtn, .navbar-menu-list.responsive .nav-menu-col4 .dropbtn, .navbar-menu-list.responsive .nav-menu-col5 .dropbtn, .navbar-menu-list.responsive .nav-menu-col6 .dropbtn, .navbar-menu-list.responsive .nav-menu-col7 .dropbtn, .navbar-menu-list.responsive .nav-menu-col8 .dropbtn, .navbar-menu-list.responsive .nav-menu-col9 .dropbtn, .navbar-menu-list.responsive .nav-menu-col10 .dropbtn, .navbar-menu-list.responsive .nav-menu-col11 .dropbtn  {
     display: block;
     width: 100%;
     text-align: left;

@@ -3,7 +3,7 @@ import Header from '../Homes/Header';
 import Body from '../Homes/Body';
 import Footer from '../Homes/Footer';
 import ImageSlider from '../Homes/ImageSlider';
-import '../App.css'
+import '../App.css';
 
 const Home = () => {
   
@@ -15,7 +15,6 @@ const Home = () => {
     {url:'http://localhost:3000/image-5.jpg', title:""}
   ];
 
-  
 
   return (
     <div className='main-display-container'>

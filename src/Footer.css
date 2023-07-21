@@ -1,0 +1,68 @@
+.footer-links {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    color: white;
+    margin-bottom: 0.5px;
+}
+
+.footer-links li:not(:last-child)::after {
+    content: "|";
+    margin: 0 5px;
+  }
+
+  .footer-links li a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .copyright {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+    color: white;
+  }
+
+  .footer-main-content {
+    position: relative;
+    width: 100%;
+    background-color: rgb(75, 72, 72);
+  }
+
+  .iapl-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color:white;
+    padding: 30px;
+  }
+
+  .iapl-col1 a,  .iapl-col2 a,  .iapl-col3 a,  .iapl-col4 a, .iapl-col5 a {
+    text-decoration: none;
+    color:white
+  }
+
+  .iapl-col1 li,  .iapl-col2 li,  .iapl-col3 li,  .iapl-col4 li, .iapl-col5 li  {
+    list-style-type: none;
+  }
+
+  @media screen and (max-width: 768px) {
+    .footer-main-content {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    }
+
+    .iapl-container {
+      display: block;
+      color:white;
+      padding: 30px;
+    }
+
+    .iapl-sub-col1,  .iapl-sub-col2, .iapl-sub-col3,  .iapl-sub-col4, .iapl-sub-col5 {
+      margin: 15px;
+    }
+  }
