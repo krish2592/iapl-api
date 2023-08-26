@@ -10,6 +10,7 @@ import WhyMaahaul from '../HomePages/WhyMaahaul';
 import TeamMaahaul from '../HomePages/TeamMaahaul';
 import MepHome from '../MepConsultants/MepHome';
 import ContactUs from '../Users/ContactUs';
+import PrivacyPolicy from '../HomePages/PrivacyPolicy';
 
 const AppRoutes = () => (
   <Routes>
@@ -23,6 +24,7 @@ const AppRoutes = () => (
     <Route path="/why/maahaul" element={<WhyMaahaul/>}/>
     <Route path="/team/maahaul" element={<TeamMaahaul/>}/>
     <Route path="/contact" element={<ContactUs/>}/>
+    <Route path="/privacy" element={<PrivacyPolicy/>}/>
     /** Maahaul */
 
     /**Consultancy */
