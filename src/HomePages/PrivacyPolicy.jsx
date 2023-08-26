@@ -38,6 +38,7 @@ const PrivacyPolicy = () => {
                     <h2>Contact Us</h2>
                     <p>If you have any questions, concerns, or requests regarding this Privacy Policy or our privacy practices, please contact us at sachink@infytechai.com.</p>
                 </div>
+                
             </body>
             <Footer/>
         </html>
