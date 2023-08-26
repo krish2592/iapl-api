@@ -1,7 +1,7 @@
 import React from 'react';
-import Header from '../Homes/Header';
+import MepHeader from '../MepConsultants/MepHeader';
 import Body from '../Homes/Body';
-import Footer from '../Homes/Footer';
+import Footer from '../MepConsultants/MepFooter';
 import ImageSlider from '../Homes/ImageSlider';
 import '../App.css';
 
@@ -26,7 +26,7 @@ const Home = () => {
 
   return (
     <div className='main-display-container'>
-        <Header/>
+        <MepHeader/>
         <ImageSlider slides={images}/>
         <Body/>
         <Footer/>

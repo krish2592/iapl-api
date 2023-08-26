@@ -70,6 +70,7 @@ export const Register = (props) => {
 
     return (
         <div className='register-form-container'>
+          <div className='form-container'>
             <h2>New User Registeration</h2>
         <form className='register-form' onSubmit={registerUser} action='POST'>
                 <label htmlFor="firstName">First Name</label>
@@ -107,7 +108,8 @@ export const Register = (props) => {
             <button type="submit">Register</button>
             {successMessage && <h3>{successMessage}</h3>}
         </form>
-        <button className='link-btn' onClick={() => props.onFormSwitch('login')}>Already have an account? Login here</button>
+        {/* <button className='link-btn' onClick={() => props.onFormSwitch('login')}>Already have an account? Login here</button> */}
+        </div>
         </div>
     );
 }

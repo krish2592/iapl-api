@@ -23,7 +23,7 @@ const Body = () => {
             </div>
         </section>
 
-        <div className="services-level">Features</div>
+        <div className="services-level">FEATURES</div>
         <section className="mh-video-container">
             <div>Features need to be here</div>
         </section>
