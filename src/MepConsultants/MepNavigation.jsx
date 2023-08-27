@@ -99,7 +99,7 @@ const MepNavigation = () => {
           </div> */}
 
           <div id='navbar-menu-list9' className='nav-menu-col9'>
-            <Link to="/contact">Contact US</Link>
+            <Link to="/contact">Contact Us</Link>
           </div>
 
           <div id='navbar-menu-list10' className='nav-menu-col10'>

@@ -31,7 +31,7 @@ const Footer = () => {
                         <li><Link to="/maahaul/about">Blog</Link></li>
                         <li><Link to="/maahaul">FAQs</Link></li>
                         <li><Link to="/about">Feedback</Link></li>
-                        <li><Link to="/maahaul/career">ContactUs</Link></li>
+                        <li><Link to="/maahaul/career">Contact Us</Link></li>
                     </div>
                 </div>
                 <div className="iapl-sub-col5">CONNECT US

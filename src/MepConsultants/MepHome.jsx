@@ -1,6 +1,6 @@
 import React from 'react';
 import MepHeader from '../MepConsultants/MepHeader';
-import Body from '../Homes/Body';
+import MepBody from '../MepConsultants/MepBody';
 import Footer from '../MepConsultants/MepFooter';
 import ImageSlider from '../Homes/ImageSlider';
 import '../App.css';
@@ -28,7 +28,7 @@ const Home = () => {
     <div className='main-display-container'>
         <MepHeader/>
         <ImageSlider slides={images}/>
-        <Body/>
+        <MepBody/>
         <Footer/>
     </div>
   );
