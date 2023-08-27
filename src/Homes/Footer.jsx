@@ -44,7 +44,7 @@ const Footer = () => {
                 </div>
                 <div className="iapl-sub-col5">CONNECT US
                     <div className="iapl-col5">
-                        <li><Link to="/twitter">Twitter</Link></li>
+                        {/* <li><Link to="/twitter">Twitter</Link></li> */}
                         <li><Link to="https://www.instagram.com/invites/contact/?i=conu2eak7gf5&utm_content=rdy7mb1">Instagram</Link></li>
                         <li><Link to="https://t.me/maahaul">Teligram</Link></li>
                         <li><Link to="https://www.youtube.com/@InfytechMaahaul">Youtube</Link></li>

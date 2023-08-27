@@ -36,7 +36,7 @@ const Footer = () => {
                 </div>
                 <div className="iapl-sub-col5">CONNECT US
                     <div className="iapl-col5">
-                        <li><Link to="/maahaul/about">Twitter</Link></li>
+                        {/* <li><Link to="/maahaul/about">Twitter</Link></li> */}
                         <li><Link to="/maahaul">Instagram</Link></li>
                         <li><Link to="/about">Teligram</Link></li>
                         <li><Link to="/maahaul/career">Youtube</Link></li>
