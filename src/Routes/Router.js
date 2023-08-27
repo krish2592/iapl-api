@@ -11,6 +11,10 @@ import TeamMaahaul from '../HomePages/TeamMaahaul';
 import MepHome from '../MepConsultants/MepHome';
 import ContactUs from '../Users/ContactUs';
 import PrivacyPolicy from '../HomePages/PrivacyPolicy';
+import Terms from '../HomePages/Terms';
+import Blog from '../HomePages/Blog';
+import Faq from '../HomePages/Faq';
+import FeedbackForm from '../HomePages/FeedbackForm';
 
 const AppRoutes = () => (
   <Routes>
@@ -25,6 +29,10 @@ const AppRoutes = () => (
     <Route path="/team/maahaul" element={<TeamMaahaul/>}/>
     <Route path="/contact" element={<ContactUs/>}/>
     <Route path="/privacy" element={<PrivacyPolicy/>}/>
+    <Route path="/terms" element={<Terms/>}/>
+    <Route path="/blog" element={<Blog/>}/>
+    <Route path="/faq" element={<Faq/>}/>
+    <Route path="/feedback" element={<FeedbackForm/>}/>
     /** Maahaul */
 
     /**Consultancy */

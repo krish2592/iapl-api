@@ -36,18 +36,18 @@ const Footer = () => {
                 </div> */}
                 <div className="iapl-sub-col4">ENQUIRY
                     <div className="iapl-col4">
-                        <li><Link to="/maahaul/about">Blog</Link></li>
-                        <li><Link to="/maahaul">FAQs</Link></li>
-                        <li><Link to="/about">Feedback</Link></li>
-                        <li><Link to="/maahaul/career">Contact Us</Link></li>
+                        <li><Link to="/blog">Blog</Link></li>
+                        <li><Link to="/faq">FAQs</Link></li>
+                        <li><Link to="/feedback">Feedback</Link></li>
+                        <li><Link to="/contact">Contact Us</Link></li>
                     </div>
                 </div>
                 <div className="iapl-sub-col5">CONNECT US
                     <div className="iapl-col5">
-                        <li><Link to="/maahaul/about">Twitter</Link></li>
-                        <li><Link to="/maahaul">Instagram</Link></li>
-                        <li><Link to="/about">Teligram</Link></li>
-                        <li><Link to="/maahaul/career">Youtube</Link></li>
+                        <li><Link to="/twitter">Twitter</Link></li>
+                        <li><Link to="https://www.instagram.com/invites/contact/?i=conu2eak7gf5&utm_content=rdy7mb1">Instagram</Link></li>
+                        <li><Link to="https://t.me/maahaul">Teligram</Link></li>
+                        <li><Link to="https://www.youtube.com/@InfytechMaahaul">Youtube</Link></li>
                     </div>
                 </div>
             </div>

@@ -1,0 +1,51 @@
+.feedback-form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .feedback-form-container h2 {
+    margin-bottom: 10px;
+  }
+  
+  .feedback-form-container form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .feedback-form-container form input,
+  .feedback-form-container form select,
+  .feedback-form-container form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .feedback-form-container form select {
+    cursor: pointer;
+  }
+  
+  .feedback-form-container form textarea {
+    height: 120px;
+  }
+  
+  .feedback-form-container form button {
+    display: block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .feedback-form-container form button:hover {
+    background-color: #0056b3;
+  }  

@@ -1,0 +1,10 @@
+.blog-container {
+    text-align: center;
+    margin: 2rem;
+  }
+  
+  .blog {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin: 1rem 0;
+  }  
