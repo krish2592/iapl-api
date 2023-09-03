@@ -1,7 +1,7 @@
 import React from 'react';
 import Navigation from './Navigation';
-// import logo from '../Images/logo.jpg';
-import logo from '../Images/logo-maahaul.jpg';
+import logo from '../Images/logo.jpg';
+//import logo from '../Images/logo-maahaul.jpg';
 
 const Header = () => {
   return (
