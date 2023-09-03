@@ -8,7 +8,8 @@ import logo2 from '../Images/logo-mep-consultants.jpg';
 const Body = () => {
 
     return (
-    <body><div className="services-level">WHAT UNIQUE IN MAAHAUL</div>
+    <body className="main-body">
+        <div className="services-level"><h3>WHAT UNIQUE IN MAAHAUL</h3></div>
         
         <section className="mh-video-container">
             <div className="mh-video-section">
@@ -16,7 +17,7 @@ const Body = () => {
             </div>
         </section>
 
-        <div className="services-level">OUR MISSION</div>
+        <div className="services-level"><h3>OUR MISSION</h3></div>
         <p>Our unwavering mission is to revolutionize the landscape of education by providing access to knowledge and learning experiences that are entirely value of cost or financial barriers. Our vision is a world where everyone, regardless of their background or financial resources, has the opportunity to access high-quality education that is invaluable and life-transforming.</p>
         <section className="mh-video-container">
             <div className="mh-video-section">
@@ -24,12 +25,12 @@ const Body = () => {
             </div>
         </section>
 
-        <div className="services-level">FEATURES</div>
+        <div className="services-level"><h3>FEATURES</h3></div>
         <section className="mh-video-container">
             <div>Features need to be here</div>
         </section>
 
-        <div className="services-level">OUR SERVICES</div>
+        <div className="services-level"><h3>OUR SERVICES</h3></div>
         <section className="wl-p-main-container">
             <div className="mh-wl-p">
                 <img src={logo1} alt='Infytech AI'  className='mh-logo'/>
