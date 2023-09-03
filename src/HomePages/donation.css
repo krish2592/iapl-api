@@ -1,0 +1,62 @@
+/* donation.css */
+
+.faq-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .faq-item {
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .faq-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+  }
+  
+  .icon {
+    font-size: 14px;
+    transform: rotate(0deg);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .open {
+    transform: rotate(180deg);
+  }
+  
+  .faq-answer {
+    padding: 10px 0;
+  }  
+
+  .qr-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+
+  .qr-code {
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+  }
+
+  .qr-container img {
+    max-width: 100%; /* Make sure the image doesn't exceed the div's width */
+    max-height: 100%; /* Make sure the image doesn't exceed the div's height */
+    width: auto; /* Maintain the image's aspect ratio */
+    height: auto; /* Maintain the image's aspect ratio */
+    position: relative; /* Position the image absolutely within the div */
+    top: 50%; /* Vertically center the image */
+    left: 50%; /* Horizontally center the image */
+    transform: translate(-50%, -50%); /* Center the image precisely */
+}

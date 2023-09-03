@@ -1,8 +1,8 @@
 import React from "react";
 import '../Body.css';
 import { Link } from 'react-router-dom';
-import logo1 from '../Images/logo-maahaul.jpg'
-import logo2 from '../Images/logo-mep-consultants.jpg'
+import logo1 from '../Images/logo-maahaul.jpg';
+import logo2 from '../Images/logo-mep-consultants.jpg';
 //import logo3 from '../Images/logo.jpg'
 
 const Body = () => {
@@ -34,7 +34,7 @@ const Body = () => {
             <div className="mh-wl-p">
                 <img src={logo1} alt='Infytech AI'  className='mh-logo'/>
                 <div className="mh-hm-b">
-                    <Link to="/maahaul" className="theme-button">Know More</Link>
+                    <Link to="/aboutMaahaul" className="theme-button">Know More</Link>
                 </div>
             </div>
             <div className="mep-de-wlp">

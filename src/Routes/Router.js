@@ -15,6 +15,9 @@ import Terms from '../HomePages/Terms';
 import Blog from '../HomePages/Blog';
 import Faq from '../HomePages/Faq';
 import FeedbackForm from '../HomePages/FeedbackForm';
+import CommunityForm from '../HomePages/CommunityForm';
+import Donation from '../HomePages/Donation';
+import AdmissionForm from '../HomePages/OnlineAdmission';
 
 const AppRoutes = () => (
   <Routes>
@@ -24,15 +27,17 @@ const AppRoutes = () => (
     <Route path="/register" element={<RegisterationForm />} />
     /** Home Pages */
     <Route path="/about" element={<AboutInfytech/>}/>
-    <Route path="/about/maahaul" element={<AboutMaahaul/>}/>
-    <Route path="/why/maahaul" element={<WhyMaahaul/>}/>
-    <Route path="/team/maahaul" element={<TeamMaahaul/>}/>
+    <Route path="/aboutMaahaul" element={<AboutMaahaul/>}/>
+    <Route path="/whyMaahaul" element={<WhyMaahaul/>}/>
+    <Route path="/teamMaahaul" element={<TeamMaahaul/>}/>
     <Route path="/contact" element={<ContactUs/>}/>
     <Route path="/privacy" element={<PrivacyPolicy/>}/>
     <Route path="/terms" element={<Terms/>}/>
-    <Route path="/blog" element={<Blog/>}/>
+    <Route path="/blog" element={<CommunityForm/>}/>
     <Route path="/faq" element={<Faq/>}/>
     <Route path="/feedback" element={<FeedbackForm/>}/>
+    <Route path="/donation" element={<Donation/>}/>
+    <Route path="/admission" element={<AdmissionForm/>}/>
     /** Maahaul */
 
     /**Consultancy */

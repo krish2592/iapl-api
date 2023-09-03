@@ -45,10 +45,10 @@ const Navigation = () => {
             </button>
             {isDropdownOpen.about && (
           <div class="dropdown-content">
-             <Link to="/about">About Infytech Loop AI</Link>
-             <Link to="/about/maahaul">About Maahaul</Link>
-             <Link to="/why/maahaul">Why Maahaul</Link>
-             <Link to="/team/maahaul">Team</Link>
+             <Link to="/about">About US</Link>
+             <Link to="/aboutMaahaul">About Maahaul</Link>
+             <Link to="/whyMaahaul">Why Maahaul</Link>
+             {/* <Link to="/teamMaahaul">Team</Link> */}
           </div>
             )}
           </div>
@@ -66,6 +66,7 @@ const Navigation = () => {
             )}
           </div> */}
 
+          {/*
           <div id='navbar-menu-list3' className='nav-menu-col3' onMouseOver={() => handleDropdownMouseOver('service1')}
           onMouseLeave={() => handleDropdownMouseLeave('service1')}>
           <button className="dropbtn">
@@ -73,7 +74,7 @@ const Navigation = () => {
             </button>
             {isDropdownOpen.service1 && (
           <div class="dropdown-content">
-            {/* <Link to="/maahaul/engineering/admission">IIT/NIT/Top Engineering College</Link>
+            <Link to="/maahaul/engineering/admission">IIT/NIT/Top Engineering College</Link>
             <Link to="/maahaul/doctor">NEET/Top MBBS College</Link>
             <Link to="/maahaul/defence">Defence</Link>
             <Link to="/maahaul/gate">GATE-PSUs</Link>
@@ -84,10 +85,10 @@ const Navigation = () => {
             <Link to="/maahaul/software">Software</Link>
             <Link to="/maahaul/startup">Entrepreneurship</Link>
             <Link to="/maahaul/government">Other Government Job</Link>
-            <Link to="/maahaul/private">Other Private Job</Link> */}
+            <Link to="/maahaul/private">Other Private Job</Link> 
           </div>
             )}
-          </div>
+          </div> */}
 
           <div id='navbar-menu-list4' className='nav-menu-col4'>
             <Link to="/mep">Consultancy</Link>
@@ -100,10 +101,10 @@ const Navigation = () => {
             </button>
             {isDropdownOpen.training && (
           <div class="dropdown-content">
-            {/* <Link to="/maahaul/training/5">Certified Faculty upto 5th</Link>
-            <Link to="/maahaul/training/8">Certified Faculty upto 8th</Link>
-            <Link to="/maahaul/training/10">Certified Faculty upto 10th</Link>
-            <Link to="/maahaul/training/12">Certified Faculty upto 12th</Link> */}
+            <Link to="/training/1-5">Certified Faculty upto 5th</Link>
+            <Link to="/training/1-8">Certified Faculty upto 8th</Link>
+            <Link to="/training/1-10">Certified Faculty upto 10th</Link>
+            <Link to="/training/1-12">Certified Faculty upto 12th</Link>
           </div>
             )}
           </div>
@@ -115,6 +116,10 @@ const Navigation = () => {
             </button>
             {isDropdownOpen.iplan && (
           <div class="dropdown-content">
+            <Link to="/class/1-5">Electron (1-5)</Link>
+            <Link to="/class/6-8">Proton (6-8)</Link>
+            <Link to="/class/9-10">Neutron (9-10)</Link>
+            <Link to="/class/11-12">Atom (11-12)</Link>
             {/* <Link to="/education">First standard</Link>
             <Link to="/mep/design">Second standard</Link>
             <Link to="/mep/design">Third standard</Link>
@@ -142,7 +147,7 @@ const Navigation = () => {
             </button>
             {isDropdownOpen.channels && (
           <div class="dropdown-content">
-            <Link to="/education">Maahaul</Link>
+            <Link to="https://www.youtube.com/@InfytechMaahaul">Maahaul</Link>
           </div>
             )}
           </div>

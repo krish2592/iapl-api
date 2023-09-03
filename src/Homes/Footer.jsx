@@ -10,16 +10,16 @@ const Footer = () => {
                     <div className="iapl-sub-col1" >INFYTECH LOOP AI
                         <div className="iapl-col1">
                             <li><Link to="/about">About US</Link></li>
-                            <li><Link to="/why/infytech">Why Infytech Loop AI</Link></li>
-                            {/* <li><Link to="/about">Team</Link></li>
+                           {/* <li><Link to="/why/infytech">Why Infytech Loop AI</Link></li>
+                            <li><Link to="/about">Team</Link></li>
                             <li><Link to="/about">Jobs at Infytech AI</Link></li>
                             <li><Link to="/about">Photo Gallery</Link></li> */}
                         </div>
                     </div>
                 <div className="iapl-sub-col2">MAAHAUL
                     <div className="iapl-col2">
-                        <li><Link to="/maahaul/about">About Us</Link></li>
-                        <li><Link to="/maahaul">Maahaul</Link></li>
+                        <li><Link to="/aboutMaahaul">About Us</Link></li>
+                        <li><Link to="/whyMaahaul">Why Maahaul</Link></li>
                         {/* <li><Link to="/about">Team</Link></li>
                         <li><Link to="/maahaul/career">Jobs at Maahaul</Link></li>
                         <li><Link to="/about">Photo Gallery</Link></li> */}
@@ -44,7 +44,7 @@ const Footer = () => {
                 </div>
                 <div className="iapl-sub-col5">CONNECT US
                     <div className="iapl-col5">
-                        {/* <li><Link to="/twitter">Twitter</Link></li> */}
+                        <li><Link to="https://twitter.com/InfytechMaahaul?t=Bvq-8V-umV7HVYI46dwkoQ&s=09">Twitter</Link></li>
                         <li><Link to="https://www.instagram.com/invites/contact/?i=conu2eak7gf5&utm_content=rdy7mb1">Instagram</Link></li>
                         <li><Link to="https://t.me/maahaul">Teligram</Link></li>
                         <li><Link to="https://www.youtube.com/@InfytechMaahaul">Youtube</Link></li>

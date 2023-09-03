@@ -7,7 +7,7 @@ const ImageSlider = ({ slides }) => {
 
 const containerStyle = {
     width: "100%",
-    height: "300px",
+    height: "500px",
     margin: "0 auto",
 }
 
@@ -19,8 +19,9 @@ const sliderStyle = {
 const slideStyles = {
     width: '100%',
     height: '100%',
-    backgroundPosition: 'center',
-    backgroundSize: 'cover',
+    backgroundRepeat: 'no-repeat',
+    backgroundPosition: 'center center',
+    backgroundSize: '100% 100%',
     backgroundImage:`url(${slides[currentIndex].url})`
 }
 

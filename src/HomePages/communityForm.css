@@ -1,0 +1,48 @@
+/* CommunityForm.css */
+
+.community-form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .community-form-container h2 {
+    margin-bottom: 10px;
+  }
+  
+  .community-form-container form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .community-form-container form input,
+  .community-form-container form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .community-form-container form textarea {
+    height: 150px;
+  }
+  
+  .community-form-container form button {
+    display: block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .community-form-container form button:hover {
+    background-color: #0056b3;
+  }  
