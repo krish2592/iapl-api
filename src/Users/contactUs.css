@@ -5,12 +5,14 @@
     align-items: center;
     justify-content: center;
     color: white;
-    background:#63738a;
+    background: white;
     font-family: 'Roboto', sans-serif;
     width: auto;
     margin: 0 auto;
     padding: 30px 0;
     font-size: 20px;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 .user-form-container {
@@ -62,4 +64,9 @@
         width: auto;
         height: 350px;
        }
+}
+
+.user-add, .user-add h2 {
+    text-align: start;
+    color: black;
 }

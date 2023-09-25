@@ -3,7 +3,7 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #f8f8f8;
+    background-color: white;
     color: #333;
     margin: 0;
     padding: 0px;
@@ -58,3 +58,16 @@ body {
     flex: 1;
   }
   
+  .about-us-container {
+    margin-bottom: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  @media screen and (max-width: 550px) {
+    .about-us-container {
+      margin-bottom: 100px;
+      margin-left: 25px;
+      margin-right: 25px;
+    }
+  }

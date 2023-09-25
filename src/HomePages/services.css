@@ -1,0 +1,122 @@
+.service-body {
+    background-color: white;
+    margin-bottom: 100px;
+}
+
+.main-container {
+    margin-right: 150px;
+    margin-left: 100px;
+    position: relative;
+}
+
+.service-container {
+ margin-right: 150px;
+ margin-left: 100px;
+}
+
+
+/**************************** Service Main Container **************************/
+.service-1-row-1, .service-2-row-2, .service-3-row-3, .service-4-row-4 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.service-2-row-2 {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 300px;
+}
+
+/**************************** Service Main Heading **************************/
+
+#ser1-row1-main-heading, #ser2-row2-main-heading, #ser3-row3-main-heading, #ser4-row4-main-heading {
+    font-size: 35px;
+}
+
+/**************************** Service column container **************************/
+
+#ser1-col1-main-cont1, #ser1-col2-main-cont2, #ser1-col3-main-cont3, #ser2-col1-main-cont1, #ser2-col2-main-cont2, #ser3-col1-main-cont1, #ser3-col2-main-cont2, #ser3-col3-main-cont3, #ser4-col1-main-cont1 {
+    font-size: 25px;
+}  
+
+/**************************** Service column container **************************/
+
+.ser1-col-sub-cont, .ser2-col-sub-cont, .ser3-col-sub-cont, .ser4-col-sub-cont {
+    font-size: 21px;
+    color: black;
+    font-weight: 500;   
+}
+
+/************************** media query *********************************/
+
+@media screen and (max-width: 900px) {
+    .main-container {
+        margin-right: 30px;
+        margin-left: 50px;
+        position: relative;
+    }
+    
+    .service-container {
+     margin-right: 30px;
+     margin-left: 50px;
+    }
+    .service-2-row-2 {
+        display: flex;
+        justify-content: space-between;
+        margin-right: 150px;
+    }
+
+    #ser1-row1-main-heading, #ser2-row2-main-heading, #ser3-row3-main-heading, #ser4-row4-main-heading {
+        font-size: 27px;
+    }
+
+    #ser1-col1-main-cont1, #ser1-col2-main-cont2, #ser1-col3-main-cont3, #ser2-col1-main-cont1, #ser2-col2-main-cont2, #ser3-col1-main-cont1, #ser3-col2-main-cont2, #ser3-col3-main-cont3, #ser4-col1-main-cont1 {
+        font-size: 22px;
+    }  
+
+    .ser1-col-sub-cont, .ser2-col-sub-cont, .ser3-col-sub-cont, .ser4-col-sub-cont {
+        font-size: 17px;
+        color: black;
+        font-weight: 500;   
+    }
+  }
+
+
+@media screen and (max-width: 750px) {
+    #ser1-row1-main-heading, #ser2-row2-main-heading, #ser3-row3-main-heading, #ser4-row4-main-heading {
+        font-size: 25px;
+    }
+
+    #ser1-col1-main-cont1, #ser1-col2-main-cont2, #ser1-col3-main-cont3, #ser2-col1-main-cont1, #ser2-col2-main-cont2, #ser3-col1-main-cont1, #ser3-col2-main-cont2, #ser3-col3-main-cont3, #ser4-col1-main-cont1 {
+        font-size: 20px;
+    }  
+
+    .ser1-col-sub-cont, .ser2-col-sub-cont, .ser3-col-sub-cont, .ser4-col-sub-cont {
+        font-size: 15px;
+        color: black;
+        font-weight: 500;   
+    }
+}
+
+@media screen and (max-width: 550px) {
+
+    .service-1-row-1, .service-2-row-2, .service-3-row-3, .service-4-row-4 {
+        display: block;
+        margin-bottom: 50px;
+    }
+
+    #ser1-row1-main-heading, #ser2-row2-main-heading, #ser3-row3-main-heading, #ser4-row4-main-heading {
+        font-size: 30px;
+    }
+
+    #ser1-col1-main-cont1, #ser1-col2-main-cont2, #ser1-col3-main-cont3, #ser2-col1-main-cont1, #ser2-col2-main-cont2, #ser3-col1-main-cont1, #ser3-col2-main-cont2, #ser3-col3-main-cont3, #ser4-col1-main-cont1 {
+        font-size: 25px;
+    }  
+
+    .ser1-col-sub-cont, .ser2-col-sub-cont, .ser3-col-sub-cont, .ser4-col-sub-cont {
+        font-size: 21px;
+        color: black;
+        font-weight: 500;   
+    }
+}

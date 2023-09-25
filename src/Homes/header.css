@@ -1,0 +1,25 @@
+/*************** Header styling **********************/
+.main-header-container {
+    background-color: white;
+    height: 120px;
+}
+
+.main-header-sub-container {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.header-container {
+    margin-top: 22.5px;
+    margin-bottom: 22.5px;
+}
+
+.company-logo {
+    width: 75px;
+    height: 75px;
+}
+
+  
+/***********************************************************************/

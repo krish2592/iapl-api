@@ -7,7 +7,7 @@ const ImageSlider = ({ slides }) => {
 
 const containerStyle = {
     width: "100%",
-    height: "500px",
+    height: "580px",
     margin: "0 auto",
 }
 

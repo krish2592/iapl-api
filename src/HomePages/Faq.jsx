@@ -26,7 +26,7 @@ const Faq = () => {
       answer: '',
     },
     {
-      question: 'How Infytech is different from other instituion?',
+      question: 'How Infytech MEP Consultants is different from others?',
       answer: '',
     },
     {
@@ -34,7 +34,7 @@ const Faq = () => {
       answer: '',
     },
     {
-      question: 'How Infytech is different from other educational service provider?',
+      question: 'What if Infytech will not meet your expectation',
       answer: '',
     }
   ];

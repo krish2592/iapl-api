@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import  '../Users/contactUs.css';
 import MessageInput from './Message';
+import Header from '../Homes/Header';
+import Footer from '../Homes/Footer';
 
 export const ContactUs = (props) => {
     const [fullName, setFullName] = useState('');
@@ -54,8 +56,14 @@ export const ContactUs = (props) => {
     }
 
     return (
-    <htm>
+      <html>
+      <Header/>
         <body className='register-user-container'>
+          <div className='user-add'><h2>Contact Us</h2>
+           <p>Email: abc@iapl.com</p>
+           <p>Mobile: +91 8527253981</p>
+           {/* <p>Registered Address: H NO B5/1, Raju Park, New Delhi-110062</p> */}
+          </div>
             <div className='user-form-container'>
                 <h2>Contact Us</h2>
                 <form className='user-form' onSubmit={submitUserQuery} action='POST'>
@@ -75,13 +83,14 @@ export const ContactUs = (props) => {
                         <MessageInput onSendMessage={handleSendMessage} />
                      </div>
                      <div className="usubmit">
-                         <button className='u-submit' type="submit">Register</button>
+                         <button className='u-submit' type="submit">Submit</button>
                         {successMessage && <h3>{successMessage}</h3>}
                      </div>
                 </form>
             </div>
         </body>
-    </htm>
+        <Footer/>
+    </html>
     );
 }
 

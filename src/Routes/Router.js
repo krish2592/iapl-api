@@ -8,16 +8,17 @@ import AboutInfytech from '../HomePages/AboutInfytech';
 import AboutMaahaul from '../HomePages/AboutMaahaul';
 import WhyMaahaul from '../HomePages/WhyMaahaul';
 import TeamMaahaul from '../HomePages/TeamMaahaul';
-import MepHome from '../MepConsultants/MepHome';
 import ContactUs from '../Users/ContactUs';
 import PrivacyPolicy from '../HomePages/PrivacyPolicy';
 import Terms from '../HomePages/Terms';
-import Blog from '../HomePages/Blog';
 import Faq from '../HomePages/Faq';
 import FeedbackForm from '../HomePages/FeedbackForm';
 import CommunityForm from '../HomePages/CommunityForm';
 import Donation from '../HomePages/Donation';
 import AdmissionForm from '../HomePages/OnlineAdmission';
+import Certified from '../HomePages/CertifiedUpto';
+import Services from '../HomePages/Services';
+import Projects from '../HomePages/Project';
 
 const AppRoutes = () => (
   <Routes>
@@ -36,12 +37,11 @@ const AppRoutes = () => (
     <Route path="/blog" element={<CommunityForm/>}/>
     <Route path="/faq" element={<Faq/>}/>
     <Route path="/feedback" element={<FeedbackForm/>}/>
-    <Route path="/donation" element={<Donation/>}/>
+    <Route path="/investment" element={<Donation/>}/>
     <Route path="/admission" element={<AdmissionForm/>}/>
-    /** Maahaul */
+    <Route path="/services" element={<Services/>}/>
+    <Route path="/projects" element={<Projects/>}/>
 
-    /**Consultancy */
-    <Route path="/mep" element={<MepHome/>}/>
   </Routes>
 );
 

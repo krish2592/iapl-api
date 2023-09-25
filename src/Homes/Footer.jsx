@@ -10,44 +10,18 @@ const Footer = () => {
                     <div className="iapl-sub-col1" >INFYTECH LOOP AI
                         <div className="iapl-col1">
                             <li><Link to="/about">About US</Link></li>
-                           {/* <li><Link to="/why/infytech">Why Infytech Loop AI</Link></li>
-                            <li><Link to="/about">Team</Link></li>
-                            <li><Link to="/about">Jobs at Infytech AI</Link></li>
-                            <li><Link to="/about">Photo Gallery</Link></li> */}
                         </div>
                     </div>
-                <div className="iapl-sub-col2">MAAHAUL
-                    <div className="iapl-col2">
-                        <li><Link to="/aboutMaahaul">About Us</Link></li>
-                        <li><Link to="/whyMaahaul">Why Maahaul</Link></li>
-                        {/* <li><Link to="/about">Team</Link></li>
-                        <li><Link to="/maahaul/career">Jobs at Maahaul</Link></li>
-                        <li><Link to="/about">Photo Gallery</Link></li> */}
-                    </div>
-                </div>
-                {/* <div className="iapl-sub-col3">MEP CONSULTANTS
-                    <div className="iapl-col3">
-                        <li><Link to="/maahaul/about">About US</Link></li>
-                        <li><Link to="/maahaul">MEP Consultants</Link></li> */}
-                        {/* <li><Link to="/about">Team</Link></li>
-                        <li><Link to="/maahaul/career">Jobs at MEP Consultants</Link></li>
-                        <li><Link to="/about">Photo Gallery</Link></li> */}
-                    {/* </div>
-                </div> */}
                 <div className="iapl-sub-col4">ENQUIRY
                     <div className="iapl-col4">
-                        <li><Link to="/blog">Blog</Link></li>
                         <li><Link to="/faq">FAQs</Link></li>
-                        <li><Link to="/feedback">Feedback</Link></li>
                         <li><Link to="/contact">Contact Us</Link></li>
                     </div>
                 </div>
-                <div className="iapl-sub-col5">CONNECT US
+                <div className="iapl-sub-col5">Quick Links
                     <div className="iapl-col5">
-                        <li><Link to="https://twitter.com/InfytechMaahaul?t=Bvq-8V-umV7HVYI46dwkoQ&s=09">Twitter</Link></li>
-                        <li><Link to="https://www.instagram.com/invites/contact/?i=conu2eak7gf5&utm_content=rdy7mb1">Instagram</Link></li>
-                        <li><Link to="https://t.me/maahaul">Teligram</Link></li>
-                        <li><Link to="https://www.youtube.com/@InfytechMaahaul">Youtube</Link></li>
+                        <li><Link to="/services">Services</Link></li>
+                        <li><Link to="/projects">Projects</Link></li>
                     </div>
                 </div>
             </div>
