@@ -59,12 +59,14 @@ export const ContactUs = (props) => {
       <html>
       <Header/>
         <body className='register-user-container'>
-          <div className='user-add'><h2>Contact Us</h2>
-           <p>Email: abc@iapl.com</p>
-           <p>Mobile: +91 8527253981</p>
-           {/* <p>Registered Address: H NO B5/1, Raju Park, New Delhi-110062</p> */}
+        <div className='contact-box'>
+          <div className='user-add'><h1><b>Contact Us</b></h1>
+           <p><b>Email:</b> sachink@infytechai.com, infomakeindia@gmail.com</p>
+           <p><b>Mobile:</b> +91 8920523740</p>
+           <p><b>Registered Address:</b> B5/1, Raju Park, Devli, New Delhi-110062</p>
           </div>
-            <div className='user-form-container'>
+        </div>
+            {/* <div className='user-form-container'>
                 <h2>Contact Us</h2>
                 <form className='user-form' onSubmit={submitUserQuery} action='POST'>
                     <div className="uname">
@@ -87,7 +89,7 @@ export const ContactUs = (props) => {
                         {successMessage && <h3>{successMessage}</h3>}
                      </div>
                 </form>
-            </div>
+            </div> */}
         </body>
         <Footer/>
     </html>

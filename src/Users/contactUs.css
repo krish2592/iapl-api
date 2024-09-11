@@ -56,13 +56,18 @@
    text-decoration: none;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 580px) {
     .user-form-container {
         position: relative;
         background-color: #f2f3f7;
         color: black;
         width: auto;
         height: 350px;
+       }
+
+       .register-user-container {
+        display: flex;
+        flex-direction: column;
        }
 }
 

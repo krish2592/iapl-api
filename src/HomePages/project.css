@@ -40,7 +40,7 @@
     object-fit: cover;  /* Preserve the aspect ratio while covering the container */
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 850px) {
     .gallery-item {
         display: block;
         align-items: center;
@@ -51,4 +51,10 @@
     .gallery-row {
         display: block;
     }
+
+    .project-body {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
 }

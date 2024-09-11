@@ -2,12 +2,13 @@ import React from "react";
 import Footer from '../Homes/Footer';
 import Header from '../Homes/Header';
 import '../HomePages/aboutInfytech.css'
+import './terms.css'
 
 const Terms = () => {
     return (
         <html>
             <Header/>
-            <body>
+            <body className="main-container-terms-pol">
                 <div><h1>Terms of Service Agreement</h1>
                     <p>At our website, we are committed to protecting the privacy and confidentiality of our users. This Privacy Policy outlines how we collect, use, and disclose personal information when you use our services. By accessing or using our services, you signify your understanding and acceptance of this policy.</p>
                     <div></div>
