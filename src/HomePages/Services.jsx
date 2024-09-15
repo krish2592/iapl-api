@@ -17,7 +17,7 @@ const Services = () => {
                 </div>
                 <div className="service-container">
                     <div className="service-1-row-1-container">
-                        <h2 id="ser1-row1-main-heading">Services Engineering Design</h2>
+                        <h2 id="ser1-row1-main-heading">Engineering Design</h2>
                         <div className="service-1-row-1">
                             <div className="service-1-col-1">
                                 <h3 id="ser1-col1-main-cont1">Engineering</h3>
@@ -25,8 +25,6 @@ const Services = () => {
                                 <div id="ser1-col1-sub-cont1">➔ Electrical</div>
                                 <div className="" id="ser1-col1-sub-cont2">➔ Emergency Power</div>
                                 <div className="" id="ser1-col1-sub-cont3">➔ HVAC</div>
-                                <div className="" id="ser1-col1-sub-cont4">➔ IAQ Consulting</div>
-                                <div className="" id="ser1-col1-sub-cont5">➔ Vertical Transportation</div>
                                 </div>
                             </div>
                             <div className="service-1-col-2">
@@ -58,8 +56,7 @@ const Services = () => {
                                 <div id="ser2-col1-sub-cont3">➔ Climatic Studies</div>
                                 <div id="ser2-col1-sub-cont4">➔ Day Lighting Simulations</div>
                                 <div className="" id="ser2-col1-sub-cont5">➔ Energy Modelling</div>
-                                <div className="" id="ser2-col1-sub-cont6">➔ Façade Optimization</div>
-                                <div className="" id="ser2-col1-sub-cont7">➔ Heat Island Assessmen</div>
+                                <div className="" id="ser2-col1-sub-cont7">➔ Heat Island Assessment</div>
                                 <div className="" id="ser2-col1-sub-cont8">➔ Renewable Energy</div>
                                 <div className="" id="ser2-col1-sub-cont9">➔ Solar & Wind Studies</div>
                                 <div className="" id="ser2-col1-sub-cont10">➔ Thermal Comfort Analysis</div>
@@ -84,7 +81,6 @@ const Services = () => {
                                 <h3 id="ser3-col1-main-cont1">Property Condition</h3>
                                 <div className="ser3-col-sub-cont">
                                 <div id="ser3-col1-sub-cont1">➔ Mechanical & Electrical Systems</div>
-                                <div className="" id="ser3-col1-sub-cont2">➔ Structural System</div>
                                 <div className="" id="ser3-col1-sub-cont3">➔ Environmental</div>
                                 <div className="" id="ser3-col1-sub-cont4">➔ Review Property's "As Build" Condition</div>
                                 <div className="" id="ser3-col1-sub-cont5">➔ Review System Warranties</div>
@@ -100,25 +96,24 @@ Permit</div>
                                 <div className="" id="ser3-col2-sub-cont1">➔ BMS Systems Audit</div>
                                 <div id="ser3-col2-sub-cont2">➔ Calibrated Energy Model</div>
                                 <div className="" id="ser3-col2-sub-cont3">➔ Energy Audit</div>
-                                <div className="" id="ser3-col2-sub-cont4">➔ IAQ Audit</div>
                                 <div id="ser3-col2-sub-cont5">➔ Sustainability Audit</div>
                                 <div className="" id="ser3-col2-sub-cont6">➔ Water Audit</div>
                                 </div>
                             </div>
-                            <div className="service-3-col-3">
+                            {/* <div className="service-3-col-3">
                                 <h3 id="ser3-col3-main-cont3">Commissioning</h3>
                                 <div className="ser3-col-sub-cont">
                                 <div className="" id="ser3-col3-sub-cont1">➔ Equipment Performance Validation</div>
                                 <div className="" id="ser3-col3-sub-cont2">➔ Testing, Adjusting & Balancing (TAB)</div>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                     <div class="service-4-row-4-container">
-                        <h2 id="ser4-row4-main-heading">BIM Compliant And Undertake Following Task:</h2>
+                        <h2 id="ser4-row4-main-heading">BIM Compliant:</h2>
                         <div className="service-4-row-4">
                         <div className="service-4-col-1">
-                                <h3 id="ser4-col1-main-cont1">Property Condition</h3>
+                                {/* <h3 id="ser4-col1-main-cont1"></h3> */}
                                 <div className="ser4-col-sub-cont">
                                 <div id="ser4-col1-sub-cont1">➔ BIM Modeling</div>
                                 <div className="" id="ser4-col1-sub-cont2">➔ Design Integration</div>
