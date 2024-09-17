@@ -152,16 +152,13 @@ const Projects = () => {
     return (
         <html>
             <Header />
+            <div id="main" className="project-main-container">
+                <h1 className="project-main-container-h1">Projects</h1>
+            </div>
+            <br/>
             <body className="project-body">
-                <div id="main" className="project-main-container">
-                    <div className="project-page_title">
-                        <div className="title-container">
-                            <h1 className="">Projects</h1>
-                        </div>
-                    </div>
-                </div>
                 {titleImages.map((item, index) => (
-                <ImageGalleryBlock title={Object.keys(item)[0]} images={item[Object.keys(item)]} />
+                    <ImageGalleryBlock title={Object.keys(item)[0]} images={item[Object.keys(item)]} />
                 ))}
             </body>
             <Footer />

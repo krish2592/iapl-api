@@ -40,6 +40,21 @@
     object-fit: cover;  /* Preserve the aspect ratio while covering the container */
 }
 
+.project-main-container {
+    background-color: yellow;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2), 
+                -5px -5px 10px rgba(179, 214, 23, 0.5);
+    height: 100px;
+    position: relative;
+}
+
+.project-main-container-h1 {
+    padding-top: 20px;
+    margin-left: 50px;
+    font-size: 50px;
+    position: relative;
+}
+
 @media screen and (max-width: 850px) {
     .gallery-item {
         display: block;

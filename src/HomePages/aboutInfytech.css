@@ -60,6 +60,10 @@ body {
   
   .about-us-container {
     margin-bottom: 100px;
+  }
+
+  .about-us-container-sub {
+    margin-bottom: 100px;
     margin-left: 100px;
     margin-right: 100px;
   }
@@ -67,7 +71,26 @@ body {
   @media screen and (max-width: 550px) {
     .about-us-container {
       margin-bottom: 100px;
+    }
+
+    .about-us-container-sub {
+      margin-bottom: 100px;
       margin-left: 25px;
       margin-right: 25px;
     }
+
   }
+
+
+  .about-us {
+    background-color: yellow;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2), 
+                   -5px -5px 10px rgba(179, 214, 23, 0.5);
+    height: 100px;
+   }
+   
+   .about-us-h1 {
+       padding-top: 20px;
+       margin-left: 50px;
+       font-size: 50px;
+   }

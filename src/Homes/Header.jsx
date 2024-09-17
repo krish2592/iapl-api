@@ -10,7 +10,7 @@ const Header = () => {
       <div className='main-header-sub-container'>
         <div className='header-container'>
             <a className='logo' href='/'>
-              <img src={logo} alt='Infytech AI'  className='company-logo'/>
+              <img src={logo} alt='Infytech MEP Consultants'  className='company-logo'/>
             </a>
         </div>
         <div className="main-nav-bar-container">

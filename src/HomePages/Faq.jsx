@@ -22,7 +22,7 @@ const FaqItem = ({ question, answer }) => {
 const Faq = () => {
   const faqData = [
     {
-      question: 'Why to join Infytech?',
+      question: 'Why to choose Infytech MEP DESIGN CONSULTANTS?',
       answer: '',
     },
     {

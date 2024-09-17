@@ -1,3 +1,16 @@
+.header-contact-us {
+ background-color: yellow;
+ box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2), 
+                -5px -5px 10px rgba(179, 214, 23, 0.5);
+ height: 100px;
+}
+
+.header-contact-us-h1 {
+    padding-top: 20px;
+    margin-left: 50px;
+    font-size: 50px;
+}
+
 .register-user-container {
     display: flex;
     flex-direction: column;
@@ -14,6 +27,22 @@
     flex-direction: row;
     justify-content: space-around;
 }
+
+
+.user-add, .user-add h2 {
+    text-align: start;
+    color: black;
+}
+
+.contact-box {
+    background-color: white;
+    border: 7px solid rgb(216, 219, 218);
+    padding: 20px;
+    margin: 50px;
+    height: 500px;
+    width: 1200px;
+  }
+
 
 .user-form-container {
  position: relative;
@@ -71,7 +100,59 @@
        }
 }
 
-.user-add, .user-add h2 {
-    text-align: start;
-    color: black;
+@media screen and (max-width: 1000px) {
+    .contact-box {
+        background-color: white;
+        border: 7px solid rgb(216, 219, 218);
+        padding: 20px;
+        margin: 50px;
+        height: 500px;
+        width: 800px;
+      }
+}
+
+
+@media screen and (max-width: 800px) {
+    .contact-box {
+        background-color: white;
+        border: 7px solid rgb(216, 219, 218);
+        padding: 20px;
+        margin: 50px;
+        height: 500px;
+        width: 600px;
+      }
+}
+
+
+@media screen and (max-width: 600px) {
+    .contact-box {
+        background-color: white;
+        border: 7px solid rgb(216, 219, 218);
+        padding: 20px;
+        margin: 50px;
+        height: 500px;
+        width: 400px;
+      }
+}
+
+@media screen and (max-width: 500px) {
+    .contact-box {
+        background-color: white;
+        border: 7px solid rgb(216, 219, 218);
+        padding: 20px;
+        margin: 50px;
+        height: 500px;
+        width: 300px;
+      }
+}
+
+@media screen and (max-width: 400px) {
+    .contact-box {
+        background-color: white;
+        border: 7px solid rgb(216, 219, 218);
+        padding: 20px;
+        margin: 50px;
+        height: 500px;
+        width: 250px;
+      }
 }

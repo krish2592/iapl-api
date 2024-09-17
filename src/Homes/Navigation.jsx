@@ -35,7 +35,6 @@ const Navigation = () => {
   return (
     <div className='navbar-main-container'>
         <nav className={`navbar-menu-list ${isResponsive ? 'responsive' : ''}`} id='navbarMenuList'>
-          <p className='tempId'>This website is under development!</p>
           <div id='navbar-menu-list1' className='nav-menu-col1'>
             <Link to="/">Home</Link>
           </div>

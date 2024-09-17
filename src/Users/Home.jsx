@@ -8,29 +8,29 @@ import '../App.css';
 const Home = () => {
 
   const images = [
-    {url:'https://design.infytechai.com/bar-design-img01.jpg', title:""},
-    {url:'https://design.infytechai.com/bar-design-img02.jpg', title:""},
-    {url:'https://design.infytechai.com/bar-design-img03.jpg', title:""},
-    {url:'https://design.infytechai.com/bar-design-img04.jpg', title:""},
-    {url:'https://design.infytechai.com/bar-design-img05.jpg', title:""},
-    {url:'https://design.infytechai.com/bar-design-img07.jpg', title:""},
-    {url:'https://design.infytechai.com/bar-design-img08.jpg', title:""},
-    {url:'https://design.infytechai.com/bar-design-img09.jpg', title:""},
-    {url:'https://design.infytechai.com/bar-design-img10.jpg', title:""},
-    {url:'https://design.infytechai.com/bar-design-img11.jpg', title:""}
+    {url:'https://www.infytechloopai.in/T!5.jpg', title:""},
+    {url:'https://www.infytechloopai.in/T!10.jpg', title:""},
+    {url:'https://www.infytechloopai.in/convention3.jpg', title:""},
+    {url:'https://www.infytechloopai.in/Image2.png', title:""},
+    {url:'https://www.infytechloopai.in/Image6.png', title:""},
+    // {url:'https://www.infytechloopai.in/bar-design-img07.jpg', title:""},
+    // {url:'https://www.infytechloopai.in/bar-design-img08.jpg', title:""},
+    // {url:'https://www.infytechloopai.in/bar-design-img09.jpg', title:""},
+    // {url:'https://www.infytechloopai.in/bar-design-img10.jpg', title:""},
+    // {url:'https://www.infytechloopai.in/bar-design-img11.jpg', title:""}
   ];
 
   //  const images = [
-  //   {url:'http://localhost:3000/bar-design-img01.jpg', title:""},
-  //   {url:'http://localhost:3000/bar-design-img02.jpg', title:""},
-  //   {url:'http://localhost:3000/bar-design-img03.jpg', title:""},
-  //   {url:'http://localhost:3000/bar-design-img04.jpg', title:""},
-  //   {url:'http://localhost:3000/bar-design-img05.jpg', title:""},
-  //   {url:'http://localhost:3000/bar-design-img07.jpg', title:""},
-  //   {url:'http://localhost:3000/bar-design-img08.jpg', title:""},
-  //   {url:'http://localhost:3000/bar-design-img09.jpg', title:""},
-  //   {url:'http://localhost:3000/bar-design-img10.jpg', title:""},
-  //   {url:'http://localhost:3000/bar-design-img11.jpg', title:""}
+  //   {url:'http://localhost:3000/T!5.jpg', title:""},
+  //   {url:'http://localhost:3000/T!10.jpg', title:""},
+  //   {url:'http://localhost:3000/convention3.jpg', title:""},
+  //   {url:'http://localhost:3000/Image2.png', title:""},
+  //   {url:'http://localhost:3000/Image6.png', title:""},
+  //   // {url:'http://localhost:3000/bar-design-img07.jpg', title:""},
+  //   // {url:'http://localhost:3000/bar-design-img08.jpg', title:""},
+  //   // {url:'http://localhost:3000/bar-design-img09.jpg', title:""},
+  //   // {url:'http://localhost:3000/bar-design-img10.jpg', title:""},
+  //   // {url:'http://localhost:3000/bar-design-img11.jpg', title:""}
   // ];
   
 

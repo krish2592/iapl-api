@@ -14,7 +14,7 @@ const Footer = () => {
                     </div>
                 <div className="iapl-sub-col4">ENQUIRY
                     <div className="iapl-col4">
-                        <li><Link to="/faq">FAQs</Link></li>
+                        {/* <li><Link to="/faq">FAQs</Link></li> */}
                         <li><Link to="/contact">Contact Us</Link></li>
                     </div>
                 </div>

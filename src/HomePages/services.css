@@ -4,8 +4,17 @@
 }
 
 .main-container {
-    margin-right: 150px;
-    margin-left: 100px;
+    background-color: yellow;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2), 
+                -5px -5px 10px rgba(179, 214, 23, 0.5);
+    height: 100px;
+    position: relative;
+}
+
+.main-container-h1 {
+    padding-top: 20px;
+    margin-left: 50px;
+    font-size: 50px;
     position: relative;
 }
 
@@ -51,12 +60,6 @@
 /************************** media query *********************************/
 
 @media screen and (max-width: 900px) {
-    .main-container {
-        margin-right: 30px;
-        margin-left: 50px;
-        position: relative;
-    }
-    
     .service-container {
      margin-right: 30px;
      margin-left: 50px;
