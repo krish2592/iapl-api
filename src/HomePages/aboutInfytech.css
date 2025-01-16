@@ -1,122 +1,120 @@
 /* aboutInfytech.css */
 
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: white;
-    color: #333;
-    margin: 0;
-    padding: 0px;
-  }
-  
-  h1 {
-    color: #008080;
-    margin-bottom: 20px;
-  }
-  
-  h2 {
-    color: #008080;
-    margin-top: 30px;
-    margin-bottom: 10px;
-  }
-  
-  h3 {
-    color: #008080;
-    margin-top: 20px;
-    margin-bottom: 10px;
-  }
-  
-  p {
-    margin-bottom: 10px;
-  }
-  
-  .section {
-    margin-bottom: 30px;
-    border-radius: 5px;
-    padding: 15px;
-    background-color: #fff;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  }
-  
-  .footer {
-    text-align: center;
-    margin-top: 40px;
-    padding: 10px;
-    background-color: #008080;
-    color: #fff;
-  }
-  
-  /* CSS for proper alignment of word content */
-  .container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-  }
-  
-  .left-column,
-  .right-column {
-    flex: 1;
-  }
-  
-  .about-us-container {
-    margin-bottom: 100px;
-  }
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: white;
+  color: #333;
+  margin: 0;
+  padding: 0px;
+}
 
-  .about-us-container-sub {
-    margin-bottom: 100px;
-    margin-left: 100px;
-    margin-right: 100px;
-  }
+h1 {
+  color: #008080;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #008080;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  color: #008080;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+.section {
+  margin-bottom: 30px;
+  border-radius: 5px;
+  padding: 15px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+  text-align: center;
+  margin-top: 40px;
+  padding: 10px;
+  background-color: #008080;
+  color: #fff;
+}
+
+/* CSS for proper alignment of word content */
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.left-column, .right-column {
+  flex: 1;
+}
+
+.about-us-container {
+  margin-bottom: 100px;
+}
+
+.about-us-container-sub {
+  margin-bottom: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
 
 /*****************************************************************/
 
-  .about-us {
-    background-color: #2b5294;
-    /* box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2), 
+.about-us {
+  background-color: #2b5294;
+  /* box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2), 
                    -5px -5px 10px rgba(179, 214, 23, 0.5); */
-    height: 70px;
-    color: white
-   }
-   
-   .about-us-h1 {
-       padding-top: 5px;
-       margin-left: 50px;
-       font-size: 40px;
-       color: white;
-   }
+  height: 70px;
+  color: white
+}
 
-   .about-us-container-sub-content1,
-   .about-us-container-sub-content2,
-   .about-us-container-sub-content3,
-   .about-us-container-sub-content5,
-   .about-us-container-sub-content6,
-   .about-us-container-sub-content7 {
-      font-size: 22px;
-   }
+.about-us-h1 {
+  padding-top: 5px;
+  margin-left: 50px;
+  font-size: 40px;
+  color: white;
+}
 
-   .about-us-container-sub-content3{
-    margin-bottom: 0px;
-   }
-   .about-us-container-sub-content4 {
-    display: flex;
-    font-size: 20px;
-    /* font-weight: bold; */
-    background-color: white;
-    color: black;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding: 10px;
- }
+.about-us-container-sub-content1, .about-us-container-sub-content2, .about-us-container-sub-content3, .about-us-container-sub-content5, .about-us-container-sub-content6, .about-us-container-sub-content7 {
+  font-size: 22px;
+}
 
- @media screen and (max-width: 550px) {
+.about-us-container-sub-content3 {
+  margin-bottom: 0px;
+}
+
+.about-us-container-sub-content4 {
+  display: flex;
+  font-size: 20px;
+  /* font-weight: bold; */
+  background-color: white;
+  color: black;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 10px;
+}
+
+@media screen and (max-width: 768px) {
   .about-us-container {
     margin-bottom: 100px;
   }
-
   .about-us-container-sub {
     margin-bottom: 100px;
     margin-left: 25px;
     margin-right: 25px;
   }
-
+  .about-us-container-sub-content4 {
+    display: flex;
+    flex-direction: column;
+  }
 }
