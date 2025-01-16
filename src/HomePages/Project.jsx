@@ -152,8 +152,8 @@ const Projects = () => {
     return (
         <html>
             <Header />
-            <div id="main" className="project-main-container">
-                <h1 className="project-main-container-h1">Projects</h1>
+            <div id="main" className="project-main-container"><div className="project-main-container-h1">Projects</div>
+                {/* <h1 className="project-main-container-h1">Projects</h1> */}
             </div>
             <br/>
             <body className="project-body">

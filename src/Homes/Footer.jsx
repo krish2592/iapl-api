@@ -28,18 +28,18 @@ const Footer = () => {
             </div>
             <div className="footer-content">
                 <ul className="footer-links">
-                    <li>
+                    <li id="privacy-policy">
                         <Link to="/privacy">Privacy Policy</Link>
                     </li>
-                    <li>
+                    <li id="terms-service">
                         <Link to="/terms">Terms of Service</Link>
                     </li>
-                    <li>
+                    <li id="contact">
                         <Link to="/contact">Contact Us</Link>
                     </li>
                 </ul>
                 <div className="copyright">
-                    <p>&copy; {new Date().getFullYear()} Infytech Loop AI Private Limited</p>
+                    <p>&copy; {2023} Infytech Loop AI Private Limited</p>
                 </div>
             </div>
         </div>

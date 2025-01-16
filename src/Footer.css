@@ -5,7 +5,7 @@
     margin: 0;
     background-color: black;
     color: white;
-    margin-bottom: 0.5px;
+    margin-bottom: 0px;
 }
 
 .footer-links li:not(:last-child)::after {
@@ -17,6 +17,9 @@
     text-decoration: none;
     color: white;
   }
+#privacy-policy {
+  cursor: pointer;
+}
 
   .copyright {
     display: flex;
@@ -29,7 +32,7 @@
   .footer-main-content {
     position: relative;
     width: 100%;
-    background-color: rgb(75, 72, 72);
+    background-color: black;
     height:350px
   }
 
@@ -38,7 +41,7 @@
     flex-direction: row;
     justify-content: space-evenly;
     color:white;
-    padding: 150px;
+    padding: 140px;
   }
 
   .iapl-col1 a,  .iapl-col2 a,  .iapl-col3 a,  .iapl-col4 a, .iapl-col5 a {

@@ -4,11 +4,12 @@
 }
 
 .main-container {
-    background-color: yellow;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2), 
-                -5px -5px 10px rgba(179, 214, 23, 0.5);
+    background-color: #2b5294;
+    /* box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2), 
+                -5px -5px 10px rgba(179, 214, 23, 0.5); */
     height: 100px;
     position: relative;
+    color: white;
 }
 
 .main-container-h1 {
@@ -16,6 +17,7 @@
     margin-left: 50px;
     font-size: 50px;
     position: relative;
+    color: white;
 }
 
 .service-container {
@@ -45,7 +47,7 @@
 
 /**************************** Service column container **************************/
 
-#ser1-col1-main-cont1, #ser1-col2-main-cont2, #ser1-col3-main-cont3, #ser2-col1-main-cont1, #ser2-col2-main-cont2, #ser3-col1-main-cont1, #ser3-col2-main-cont2, #ser3-col3-main-cont3, #ser4-col1-main-cont1 {
+#ser1-col1-main-cont1, #ser1-col2-main-cont2, #ser1-col3-main-cont3,#ser1-col4-main-cont4, #ser2-col1-main-cont1, #ser2-col2-main-cont2, #ser3-col1-main-cont1, #ser3-col2-main-cont2, #ser3-col3-main-cont3, #ser4-col1-main-cont1 {
     font-size: 25px;
 }  
 
@@ -74,7 +76,7 @@
         font-size: 27px;
     }
 
-    #ser1-col1-main-cont1, #ser1-col2-main-cont2, #ser1-col3-main-cont3, #ser2-col1-main-cont1, #ser2-col2-main-cont2, #ser3-col1-main-cont1, #ser3-col2-main-cont2, #ser3-col3-main-cont3, #ser4-col1-main-cont1 {
+    #ser1-col1-main-cont1, #ser1-col2-main-cont2, #ser1-col3-main-cont3,#ser1-col4-main-cont4, #ser2-col1-main-cont1, #ser2-col2-main-cont2, #ser3-col1-main-cont1, #ser3-col2-main-cont2, #ser3-col3-main-cont3, #ser4-col1-main-cont1 {
         font-size: 22px;
     }  
 
@@ -91,7 +93,7 @@
         font-size: 25px;
     }
 
-    #ser1-col1-main-cont1, #ser1-col2-main-cont2, #ser1-col3-main-cont3, #ser2-col1-main-cont1, #ser2-col2-main-cont2, #ser3-col1-main-cont1, #ser3-col2-main-cont2, #ser3-col3-main-cont3, #ser4-col1-main-cont1 {
+    #ser1-col1-main-cont1, #ser1-col2-main-cont2, #ser1-col3-main-cont3,#ser1-col4-main-cont4, #ser2-col1-main-cont1, #ser2-col2-main-cont2, #ser3-col1-main-cont1, #ser3-col2-main-cont2, #ser3-col3-main-cont3, #ser4-col1-main-cont1 {
         font-size: 20px;
     }  
 
@@ -113,7 +115,7 @@
         font-size: 30px;
     }
 
-    #ser1-col1-main-cont1, #ser1-col2-main-cont2, #ser1-col3-main-cont3, #ser2-col1-main-cont1, #ser2-col2-main-cont2, #ser3-col1-main-cont1, #ser3-col2-main-cont2, #ser3-col3-main-cont3, #ser4-col1-main-cont1 {
+    #ser1-col1-main-cont1, #ser1-col2-main-cont2, #ser1-col3-main-cont3, #ser1-col4-main-cont4, #ser2-col1-main-cont1, #ser2-col2-main-cont2, #ser3-col1-main-cont1, #ser3-col2-main-cont2, #ser3-col3-main-cont3, #ser4-col1-main-cont1 {
         font-size: 25px;
     }  
 

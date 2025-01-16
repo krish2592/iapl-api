@@ -83,14 +83,40 @@ body {
 
 
   .about-us {
-    background-color: yellow;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2), 
-                   -5px -5px 10px rgba(179, 214, 23, 0.5);
+    background-color: #2b5294;
+    /* box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2), 
+                   -5px -5px 10px rgba(179, 214, 23, 0.5); */
     height: 100px;
+    color: white
    }
    
    .about-us-h1 {
        padding-top: 20px;
        margin-left: 50px;
        font-size: 50px;
+       color: white;
    }
+
+   .about-us-container-sub-content1,
+   .about-us-container-sub-content2,
+   .about-us-container-sub-content3,
+   .about-us-container-sub-content5,
+   .about-us-container-sub-content6,
+   .about-us-container-sub-content7 {
+      font-size: 22px;
+   }
+
+   .about-us-container-sub-content3{
+    margin-bottom: 50px;
+   }
+   .about-us-container-sub-content4 {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #2b5294;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+ }

@@ -3,9 +3,20 @@ import '../Body.css';
 import { Link } from 'react-router-dom';
 import logo1 from '../Images/logo-maahaul.jpg';
 import logo2 from '../Images/logo-mep-consultants.jpg';
+import { useNavigate } from 'react-router-dom';
 //import logo3 from '../Images/logo.jpg'
 
 const Body = () => {
+
+    const navigate = useNavigate();
+
+    const handleTurnkey = () => {
+        navigate('/about')
+    }
+
+    const handleBuyHomes = () => {
+        navigate('/services')
+    }
 
     return (
     <body className="main-body">
@@ -22,7 +33,41 @@ const Body = () => {
 
     <div className="cont-body-2">
         <div>   
-            <div className="services-level"><h3></h3></div>
+            <br></br>
+            <div className="Body-Comp-1">
+                <div className="Body-Comp-Turnkey">
+                    <div className='Body-Comp-Turnkey-Sub'>
+                        <div className='Body-Comp-Turnkey-Sub-xpa'>
+                            <h5>Projects for Solar, MEP Engineering Services, Project Management Consultancy and Green Energy and Sustainability</h5>
+                        </div>
+                        <div className='Body-Comp-Turnkey-Sub-xpb'>
+                            <h6>Simple Efficient and Cost-effective way to Design and Build</h6>
+                        </div>
+                        <div className='Body-Comp-Turnkey-Sub-xpc'>
+                            <div className='Body-Comp-Turnkey-Sub-xpca' onClick={handleTurnkey}>Know More</div>
+                        </div>
+                    </div>
+                </div>
+                <div className="Body-Comp-Buy-Homes">
+                    <div className='Body-Comp-Buy-Homes-Sub'>
+                        <div className='Body-Comp-Buy-Homes-Sub-xpa'>
+                            <h5>
+                                We Provide Broad Range of Engineering Services and Design
+                            </h5>
+                        </div>
+                        <div className='Body-Comp-Buy-Homes-Sub-xpb'>
+                            <div><h6>Our services includes Engineering Design, 
+                                Environmental and Sustainability Design, 
+                                Post Occupancy Services Evaluation and BIM Compliant
+                            </h6></div>
+                        </div>
+                        <div className='Body-Comp-Buy-Homes-Sub-xpc'>
+                            <div className='Body-Comp-Buy-Homes-Sub-xpca' onClick={handleBuyHomes}>Know More</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br></br>
            <div>
                 <div></div>
                 <div></div>

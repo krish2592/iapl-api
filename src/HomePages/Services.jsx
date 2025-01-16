@@ -8,8 +8,8 @@ const Services = () => {
         <html>
             <Header />
             <body className="service-body">
-                <div id="main" className="main-container">
-                    <h1 className="main-container-h1">SERVICES</h1>
+                <div id="main" className="main-container"><div className="main-container-h1">SERVICES</div>
+                    {/* <h1 className="main-container-h1"></h1> */}
                 </div>
                 <div className="service-container">
                     <div className="service-1-row-1-container">
@@ -37,6 +37,13 @@ const Services = () => {
                                     <div className="" id="ser1-col3-sub-cont1">➔ Building Management</div>
                                     <div className="" id="ser1-col3-sub-cont2">➔ Security System</div>
                                     <div id="ser1-col3-sub-cont3">➔ Voice & Data Systems</div>
+                                </div>
+                            </div>
+                            <div className="service-1-col-4">
+                                <h3 id="ser1-col4-main-cont4">Solar</h3>
+                                <div className="ser1-col-sub-cont">
+                                    <div className="" id="ser1-col4-sub-cont1">➔ Rooftop</div>
+                                    <div className="" id="ser1-col4-sub-cont2">➔ Ground Mounted</div>
                                 </div>
                             </div>
                         </div>

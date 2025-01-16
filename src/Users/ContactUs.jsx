@@ -58,19 +58,20 @@ export const ContactUs = (props) => {
   return (
     <html>
       <Header />
-      <div className='header-contact-us'><h1 className='header-contact-us-h1'>Contact Us</h1></div>
+      <div className='header-contact-us'><div className='header-contact-us-h1'>Contact Us</div></div>
       <body className='register-user-container'>
         <div className='contact-box'>
-          <div className='user-add'><h3><b>Delhi-NCR</b></h3>
+          <div className='user-add'>
+            <div><h3 className='user-add-headr'><b>Delhi-NCR</b></h3></div>
             <div>B5/1, Raju Park</div>
             <div>Khanpur, Devli</div>
             <div>New Delhi-110062</div>
             <br/>
-            <div><h3>Email:</h3></div>
+            <div><h3 className='user-add-headr'>Email:</h3></div>
             <div>sachink@infytechai.com</div>
             <div>infomakeindia@gmail.com</div>
             <br/>
-            <div><h3>Phone:</h3></div>
+            <div><h3 className='user-add-headr'>Phone:</h3></div>
             <div>+91 8920523740</div>
           </div>
         </div>

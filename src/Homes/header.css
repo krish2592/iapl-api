@@ -1,7 +1,7 @@
 /*************** Header styling **********************/
 .main-header-container {
     background-color: white;
-    height: 120px;
+    height: 110px;
 }
 
 .main-header-sub-container {
@@ -12,8 +12,8 @@
 }
 
 .header-container {
-    margin-top: 22.5px;
-    margin-bottom: 22.5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .company-logo {

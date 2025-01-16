@@ -151,3 +151,204 @@
     justify-content: center;
     flex-direction: column;
   }
+
+
+  .Main-Comp-Body {
+    width: fit-content;
+}
+
+.Body-Comp-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+.Body-Comp-Turnkey {
+    box-sizing: border-box;
+    margin-top: 100px;
+    padding: 5px;
+    display: flex;
+    width: 90%;
+    height: 690px;
+    background-color: rgb(43 82 148);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.Body-Comp-Turnkey-Sub {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 30px;
+}
+
+.Body-Comp-Turnkey-Sub-xpa {
+    font-size: 50px;
+}
+
+.Body-Comp-Turnkey-Sub-xpb {
+    font-size: 25px;
+}
+
+.Body-Comp-Turnkey-Sub-xpc {
+    display: flex;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.Body-Comp-Turnkey-Sub-xpca {
+    display: flex;
+    font-size: 18px;
+    width: 120px;
+    height: 35px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    background-color: aqua;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.Body-Comp-Buy-Homes {
+    box-sizing: border-box;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 5px;
+    display: flex;
+    width: 80%;
+    height: auto;
+    background-color: rgb(21 153 135);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+
+.Body-Comp-Buy-Homes-Sub {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 30px;
+}
+
+.Body-Comp-Buy-Homes-Sub-xpa {
+    font-size: 50px;
+}
+
+.Body-Comp-Buy-Homes-Sub-xpb {
+    font-size: 25px;
+}
+
+.Body-Comp-Buy-Homes-Sub-xpc {
+    display: flex;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.Body-Comp-Buy-Homes-Sub-xpca {
+    display: flex;
+    font-size: 18px;
+    width: 120px;
+    height: 35px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    background-color: aqua;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.Body-Comp-2-header {
+    margin-top: 40px;
+    font-size: 70px;
+}
+
+.Service-Type {
+    display: flex;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    justify-content: space-around;
+}
+
+
+@media (max-width: 768px) {
+    /* .Body-Comp-1 {
+       display: flex;
+       flex-direction: column;
+    } */
+}
+
+@media (max-width: 1068px) {
+
+    .Body-Comp-Buy-Homes {
+        box-sizing: border-box;
+        padding: 5px;
+        display: flex;
+        width: 50%;
+        height: 690px;
+        background-color: rgb(21 153 135);
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: white;
+    }
+
+    .Body-Comp-Buy-Homes-Sub {
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+        padding: 15px;
+    }
+    
+    .Body-Comp-Buy-Homes-Sub-xpa {
+        font-size: 40px;
+    }
+    
+    .Body-Comp-Buy-Homes-Sub-xpb {
+        font-size: 21px;
+    }
+    
+    .Body-Comp-Buy-Homes-Sub-xpc {
+        display: flex;
+        font-size: 13px;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+    }
+    
+    .Body-Comp-Buy-Homes-Sub-xpca {
+        display: flex;
+        font-size: 18px;
+        width: 120px;
+        height: 35px;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+        background-color: aqua;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+    .Body-Comp-2-header {
+        margin-top: 40px;
+        font-size: 70px;
+    }
+}
+
