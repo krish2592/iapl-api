@@ -7,15 +7,15 @@
     background-color: #2b5294;
     /* box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2), 
                 -5px -5px 10px rgba(179, 214, 23, 0.5); */
-    height: 100px;
+    height: 70px;
     position: relative;
     color: white;
 }
 
 .main-container-h1 {
-    padding-top: 20px;
+    padding-top: 5px;
     margin-left: 50px;
-    font-size: 50px;
+    font-size: 40px;
     position: relative;
     color: white;
 }
@@ -30,7 +30,7 @@
 .service-1-row-1, .service-2-row-2, .service-3-row-3, .service-4-row-4 {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 100px;
+    margin-bottom: 0px;
 }
 
 .service-2-row-2 {

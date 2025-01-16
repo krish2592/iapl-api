@@ -19,63 +19,63 @@ const Body = () => {
     }
 
     return (
-    <body className="main-body">
-        
-    <div className="cont-body-1">
-        <div className="sub-cont-body-1">   
-            {/* <section className="mh-video-container">
+        <body className="main-body">
+
+            <div className="cont-body-1">
+                <div className="sub-cont-body-1">
+                    {/* <section className="mh-video-container">
                 <div className="mh-video-section">
                     <iframe className="mh-what-unique" src="https://www.youtube.com/embed/tdPW1qg1ius" title="Elon Musk Reacts To Chandrayaan-3 Mission Cost" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" autoPlay allowFullScreen></iframe>
                 </div>
             </section> */}
-        </div>
-    </div>
+                </div>
+            </div>
 
-    <div className="cont-body-2">
-        <div>   
-            <br></br>
-            <div className="Body-Comp-1">
-                <div className="Body-Comp-Turnkey">
-                    <div className='Body-Comp-Turnkey-Sub'>
-                        <div className='Body-Comp-Turnkey-Sub-xpa'>
-                            <h5>Projects for Solar, MEP Engineering Services, Project Management Consultancy and Green Energy and Sustainability</h5>
+            <div className="cont-body-2">
+                <div>
+                    <br></br>
+                    <div className="Body-Comp-1">
+                        <div className="Body-Comp-Turnkey">
+                            <div className='Body-Comp-Turnkey-Sub'>
+                                <div className='Body-Comp-Turnkey-Sub-xpa'>
+                                    <div>Engineering Design for Solar (Rooftop and Ground Mounted), MEP Engineering Services, Project Management Consultancy and Green Energy and Sustainability</div>
+                                </div>
+                                <div className='Body-Comp-Turnkey-Sub-xpb'>
+                                    <div>Simple Efficient and Cost-effective way to Design</div>
+                                </div>
+                                <div className='Body-Comp-Turnkey-Sub-xpc'>
+                                    <div className='Body-Comp-Turnkey-Sub-xpca' onClick={handleTurnkey}>Know More</div>
+                                </div>
+                            </div>
                         </div>
-                        <div className='Body-Comp-Turnkey-Sub-xpb'>
-                            <h6>Simple Efficient and Cost-effective way to Design and Build</h6>
-                        </div>
-                        <div className='Body-Comp-Turnkey-Sub-xpc'>
-                            <div className='Body-Comp-Turnkey-Sub-xpca' onClick={handleTurnkey}>Know More</div>
+                        <div className="Body-Comp-Buy-Homes">
+                            <div className='Body-Comp-Buy-Homes-Sub'>
+                                <div className='Body-Comp-Buy-Homes-Sub-xpa'>
+                                    <div>
+                                        We Provide Broad Range of Engineering Services and Design
+                            </div>
+                                </div>
+                                <div className='Body-Comp-Buy-Homes-Sub-xpb'>
+                                    <div>Our services includes Engineering Design,
+                                        Environmental and Sustainability Design,
+                                        Post Occupancy Services Evaluation and BIM Compliant
+                                    </div>
+                                </div>
+                                <div className='Body-Comp-Buy-Homes-Sub-xpc'>
+                                    <div className='Body-Comp-Buy-Homes-Sub-xpca' onClick={handleBuyHomes}>Know More</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div className="Body-Comp-Buy-Homes">
-                    <div className='Body-Comp-Buy-Homes-Sub'>
-                        <div className='Body-Comp-Buy-Homes-Sub-xpa'>
-                            <h5>
-                                We Provide Broad Range of Engineering Services and Design
-                            </h5>
-                        </div>
-                        <div className='Body-Comp-Buy-Homes-Sub-xpb'>
-                            <div><h6>Our services includes Engineering Design, 
-                                Environmental and Sustainability Design, 
-                                Post Occupancy Services Evaluation and BIM Compliant
-                            </h6></div>
-                        </div>
-                        <div className='Body-Comp-Buy-Homes-Sub-xpc'>
-                            <div className='Body-Comp-Buy-Homes-Sub-xpca' onClick={handleBuyHomes}>Know More</div>
-                        </div>
+                    <br></br>
+                    <div>
+                        <div></div>
+                        <div></div>
                     </div>
                 </div>
             </div>
-            <br></br>
-           <div>
-                <div></div>
-                <div></div>
-           </div>
-        </div>
-    </div>
 
-    </body>
+        </body>
     );
 }
 

@@ -33,7 +33,7 @@
     position: relative;
     width: 100%;
     background-color: black;
-    height:350px
+    height:100px
   }
 
   .iapl-container {
@@ -41,7 +41,7 @@
     flex-direction: row;
     justify-content: space-evenly;
     color:white;
-    padding: 140px;
+    padding: 25px;
   }
 
   .iapl-col1 a,  .iapl-col2 a,  .iapl-col3 a,  .iapl-col4 a, .iapl-col5 a {

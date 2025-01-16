@@ -146,8 +146,36 @@ const Projects = () => {
                 { url: 'https://design.infytechai.com/bar-design-img12.jpg', title: "" },
                 { url: 'https://design.infytechai.com/bar-design-img13.jpg', title: "" },
             ]
+        },
+        {
+            "Pharmaceuticals": [
+                { url: 'https://infytechai.com/', title: "" },
+                { url: 'https://infytechai.com/', title: "" },
+                { url: 'https://infytechai.com/', title: "" },
+                { url: 'https://infytechai.com/', title: "" },
+                { url: 'https://infytechai.com/', title: "" }
+            ]
+        },
+        {
+            "Solar Rooftop & Ground Mounted": [
+                { url: 'https://infytechai.com/', title: "" },
+                { url: 'https://infytechai.com/', title: "" },
+                { url: 'https://infytechai.com/', title: "" },
+                { url: 'https://infytechai.com/', title: "" },
+                { url: 'https://infytechai.com/', title: "" }
+            ]
         }
     ];
+
+    const chunkSize = 8;
+    const chunkedTitleImages = [];
+    function chunkTitleImages(titleImages, chunkSize) {
+        for (let i = 0; i < titleImages.length; i += chunkSize) {
+            chunkedTitleImages.push(titleImages.slice(i, i + chunkSize));
+        }
+        return chunkedTitleImages;
+    }
+    chunkTitleImages(titleImages, chunkSize);
 
     return (
         <html>
@@ -155,10 +183,14 @@ const Projects = () => {
             <div id="main" className="project-main-container"><div className="project-main-container-h1">Projects</div>
                 {/* <h1 className="project-main-container-h1">Projects</h1> */}
             </div>
-            <br/>
+            <br />
             <body className="project-body">
-                {titleImages.map((item, index) => (
-                    <ImageGalleryBlock title={Object.keys(item)[0]} images={item[Object.keys(item)]} />
+                {chunkedTitleImages.map((chunkedTitleImage, index) => (
+                    <div className="project-body-sub">
+                        {chunkedTitleImage.map((item, index) => (
+                            <ImageGalleryBlock title={Object.keys(item)[0]} images={item[Object.keys(item)]} />
+                        ))}
+                    </div>
                 ))}
             </body>
             <Footer />

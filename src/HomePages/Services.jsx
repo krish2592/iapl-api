@@ -8,7 +8,7 @@ const Services = () => {
         <html>
             <Header />
             <body className="service-body">
-                <div id="main" className="main-container"><div className="main-container-h1">SERVICES</div>
+                <div id="main" className="main-container"><div className="main-container-h1">Services</div>
                     {/* <h1 className="main-container-h1"></h1> */}
                 </div>
                 <div className="service-container">

@@ -169,11 +169,11 @@
 
 .Body-Comp-Turnkey {
     box-sizing: border-box;
-    margin-top: 100px;
+    margin-top: 0px;
     padding: 5px;
     display: flex;
-    width: 90%;
-    height: 690px;
+    width: 100%;
+    height: 400px;
     background-color: rgb(43 82 148);
     justify-content: center;
     align-items: center;
@@ -189,7 +189,7 @@
 }
 
 .Body-Comp-Turnkey-Sub-xpa {
-    font-size: 50px;
+    font-size: 35px;
 }
 
 .Body-Comp-Turnkey-Sub-xpb {
@@ -221,11 +221,11 @@
 
 .Body-Comp-Buy-Homes {
     box-sizing: border-box;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 0px;
+    margin-bottom: 0px;
     padding: 5px;
     display: flex;
-    width: 80%;
+    width: 100%;
     height: auto;
     background-color: rgb(21 153 135);
     justify-content: center;
@@ -243,7 +243,7 @@
 }
 
 .Body-Comp-Buy-Homes-Sub-xpa {
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .Body-Comp-Buy-Homes-Sub-xpb {
