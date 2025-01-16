@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './ToggleGallery.css'
 
 function ImageGalleryBlock({ title, images }) {
   const [isOpen, setIsOpen] = useState(false);

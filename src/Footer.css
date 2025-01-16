@@ -62,12 +62,21 @@
     }
 
     .iapl-container {
-      display: block;
+      display: flex;
       color:white;
-      padding: 30px;
+      padding: 10px;
     }
 
     .iapl-sub-col1,  .iapl-sub-col2, .iapl-sub-col3,  .iapl-sub-col4, .iapl-sub-col5 {
-      margin: 15px;
+      margin: 5px;
+      font-size: 12px;
+    }
+
+    .footer-links {
+      font-size: 12px;
+    }
+
+    .copyright {
+      font-size: 12px;
     }
   }
