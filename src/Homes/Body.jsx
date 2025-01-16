@@ -38,7 +38,7 @@ const Body = () => {
                         <div className="Body-Comp-Turnkey">
                             <div className='Body-Comp-Turnkey-Sub'>
                                 <div className='Body-Comp-Turnkey-Sub-xpa'>
-                                    <div>Engineering Design for Solar (Rooftop and Ground Mounted), MEP Engineering Services, Project Management Consultancy and Green Energy and Sustainability</div>
+                                    <div>Providing Engineering Design for Mechanical, Electrical, Plumbing, Solar PV systems, PMC,Green Energy and Sustainability</div>
                                 </div>
                                 <div className='Body-Comp-Turnkey-Sub-xpb'>
                                     <div>Simple Efficient and Cost-effective way to Design</div>

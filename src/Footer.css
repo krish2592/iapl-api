@@ -41,7 +41,8 @@
     flex-direction: row;
     justify-content: space-evenly;
     color:white;
-    padding: 25px;
+    padding: 10px;
+    padding-top: 14px;
   }
 
   .iapl-col1 a,  .iapl-col2 a,  .iapl-col3 a,  .iapl-col4 a, .iapl-col5 a {
