@@ -89,7 +89,7 @@ export const ContactUs = (props) => {
               <div className='contact-mainbox-1-sub2-icon'> <FontAwesomeIcon icon={faEnvelope} style={{ fontSize: '25px' }} /></div>
               <div className='contact-mainbox-1-sub2-email-tag'>Email</div>
               <div className='contact-mainbox-1-sub2-email1'>sachink@infytechai.com</div>
-              <div className='contact-mainbox-1-sub2-email2'>design@infytechai.com</div>
+              <div className='contact-mainbox-1-sub2-email2'>skm@infytechai.com</div>
               <div className='contact-mainbox-1-sub2-email3'>infomakeindia@gmail.com</div>
             </div>
           </div>
