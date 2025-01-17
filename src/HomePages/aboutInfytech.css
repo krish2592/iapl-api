@@ -117,4 +117,20 @@ p {
     display: flex;
     flex-direction: column;
   }
+  .about-us-h1 {
+    margin-left: 15px;
+    font-size: 35px;
+  }
+
+  .about-us-container-sub-content1, 
+  .about-us-container-sub-content2, 
+  .about-us-container-sub-content3, 
+  .about-us-container-sub-content5, 
+  .about-us-container-sub-content6, 
+  .about-us-container-sub-content7 {
+    font-size: 18px;
+    text-align: justify;
+
+}
+
 }

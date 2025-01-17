@@ -12,11 +12,11 @@ function ImageGalleryBlock({ title, images }) {
 
   let k = 0;
   for (let i = 0; i < images.length; i++) {
-    if ((i + 1) % 4 === 0) {
-      chunkedImages.push(images.slice(k, k + 4));
+    if ((i + 1) % 2 === 0) {
+      chunkedImages.push(images.slice(k, k + 2));
       k = i + 1;
     }
-    else if (i + 1 === images.length && images.length !== 4) {
+    else if (i + 1 === images.length && images.length !== 2) {
       chunkedImages.push(images.slice(k, images.length));
     }
   }

@@ -95,6 +95,10 @@
         justify-content: center;
         align-items: center;
     }
+    .project-main-container-h1 {
+        margin-left: 15px;
+        font-size: 35px;
+    }
     .block-title {
         width: 100%;
         font-size: 16px;

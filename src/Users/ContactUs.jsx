@@ -4,6 +4,11 @@ import '../Users/contactUs.css';
 import MessageInput from './Message';
 import Header from '../Homes/Header';
 import Footer from '../Homes/Footer';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPhone } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
+import { faClock } from '@fortawesome/free-solid-svg-icons';
 
 export const ContactUs = (props) => {
   const [fullName, setFullName] = useState('');
@@ -61,7 +66,7 @@ export const ContactUs = (props) => {
       <div className='header-contact-us'><div className='header-contact-us-h1'>Contact Us</div></div>
       <body className='register-user-container'>
         <div className='contact-box'>
-          <div className='user-add'>
+          {/* <div className='user-add'>
             <div><h3 className='user-add-headr'><b>Delhi-NCR</b></h3></div>
             <div>B5/1, Raju Park</div>
             <div>Khanpur, Devli</div>
@@ -73,6 +78,35 @@ export const ContactUs = (props) => {
             <br/>
             <div><h3 className='user-add-headr'>Phone:</h3></div>
             <div>+91 8920523740</div>
+          </div> */}
+          <div className='contact-mainbox-1'>
+            <div className='contact-mainbox-1-sub1'>
+              <div className='contact-mainbox-1-sub1-icon'><FontAwesomeIcon icon={faPhone} style={{ fontSize: '25px' }} /></div>
+              <div className='contact-mainbox-1-sub1-phone-tag'>Phone Number</div>
+              <div className='contact-mainbox-1-sub1-pnum'>+91 8920523740</div>
+            </div>
+            <div className='contact-mainbox-1-sub2'>
+              <div className='contact-mainbox-1-sub2-icon'> <FontAwesomeIcon icon={faEnvelope} style={{ fontSize: '25px' }} /></div>
+              <div className='contact-mainbox-1-sub2-email-tag'>Email</div>
+              <div className='contact-mainbox-1-sub2-email1'>sachink@infytechai.com</div>
+              <div className='contact-mainbox-1-sub2-email2'>design@infytechai.com</div>
+              <div className='contact-mainbox-1-sub2-email3'>infomakeindia@gmail.com</div>
+            </div>
+          </div>
+          <div className='contact-mainbox-2'>
+            <div className='contact-mainbox-2-sub1'>
+              <div className='contact-mainbox-2-sub1-icon'><FontAwesomeIcon icon={faLocationDot} style={{ fontSize: '25px' }} /></div>
+              <div className='contact-mainbox-2-sub1-add-tag'>Address</div>
+              <div className='contact-mainbox-2-sub1-addl1'>B5/1, Raju Park</div>
+              <div className='contact-mainbox-2-sub1-addl2'>Khanpur, Devli</div>
+              <div className='contact-mainbox-2-sub1-addl3'>New Delhi-110062</div>
+            </div>
+            <div className='contact-mainbox-2-sub2'>
+              <div className='contact-mainbox-2-sub2-icon'><FontAwesomeIcon icon={faClock} style={{ fontSize: '25px' }} /></div>
+              <div className='contact-mainbox-2-sub2-wh'>Working Hour</div>
+              <div className='contact-mainbox-2-sub2-day'>Monday To Saturday</div>
+              <div className='contact-mainbox-2-sub2-tmg'>9:00AM - 6:00PM</div>
+            </div>
           </div>
         </div>
         {/* <div className='user-form-container'>

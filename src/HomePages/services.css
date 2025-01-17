@@ -43,6 +43,8 @@
 
 #ser1-row1-main-heading, #ser2-row2-main-heading, #ser3-row3-main-heading, #ser4-row4-main-heading {
     font-size: 35px;
+    color:#007bff
+
 }
 
 /**************************** Service column container **************************/
@@ -63,13 +65,13 @@
 
 @media screen and (max-width: 900px) {
     .service-container {
-     margin-right: 30px;
-     margin-left: 50px;
+     margin-right: 5px;
+     margin-left: 10px;
     }
     .service-2-row-2 {
         display: flex;
         justify-content: space-between;
-        margin-right: 150px;
+        margin-right: 1px;
     }
 
     #ser1-row1-main-heading, #ser2-row2-main-heading, #ser3-row3-main-heading, #ser4-row4-main-heading {
@@ -88,7 +90,13 @@
   }
 
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 768px) {
+    .main-container-h1 {
+        padding-top: 5px;
+        margin-left: 15px;
+        font-size: 35px;
+    }
+    
     #ser1-row1-main-heading, #ser2-row2-main-heading, #ser3-row3-main-heading, #ser4-row4-main-heading {
         font-size: 25px;
     }
@@ -112,15 +120,15 @@
     }
 
     #ser1-row1-main-heading, #ser2-row2-main-heading, #ser3-row3-main-heading, #ser4-row4-main-heading {
-        font-size: 30px;
+        font-size: 28px;
     }
 
     #ser1-col1-main-cont1, #ser1-col2-main-cont2, #ser1-col3-main-cont3, #ser1-col4-main-cont4, #ser2-col1-main-cont1, #ser2-col2-main-cont2, #ser3-col1-main-cont1, #ser3-col2-main-cont2, #ser3-col3-main-cont3, #ser4-col1-main-cont1 {
-        font-size: 25px;
+        font-size: 22px;
     }  
 
     .ser1-col-sub-cont, .ser2-col-sub-cont, .ser3-col-sub-cont, .ser4-col-sub-cont {
-        font-size: 21px;
+        font-size: 18px;
         color: black;
         font-weight: 500;   
     }
